@@ -9,7 +9,6 @@
     flex: 0 1 auto;
 }
 
-/* pseudo classes */
 /* Make the a tags turn Dark red on hover with mouse and also, ease into it to make the user experience better */
 a:hover {
     color: darkred;
