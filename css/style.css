@@ -1,1 +1,29 @@
 /* Site Styles Go Here */
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-item-flex {
+    flex: 0 1 auto;
+}
+
+/* pseudo classes */
+/* On the active part of clicking on the link, your link will turn dark red. */
+a:active {
+    color: darkred;
+}
+
+.element-1::first-letter {
+    color: darkgreen;
+}
+
+/* Custom pseudo element for styling this h1 tag with a pre - hello  */
+h1::before {
+    content: 'hello';
+    background: darkgreen;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
