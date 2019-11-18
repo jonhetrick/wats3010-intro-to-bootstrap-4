@@ -10,9 +10,10 @@
 }
 
 /* pseudo classes */
-/* On the active part of clicking on the link, your link will turn dark red. */
-a:active {
+/* Make the a tags turn Dark red on hover with mouse and also, ease into it to make the user experience better */
+a:hover {
     color: darkred;
+    transition: all 0.4s ease;
 }
 
 /* Custom pseudo element for styling this h1 tag with a pre - hello  */
@@ -22,4 +23,13 @@ h3::before {
     font-size: 10px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Fun fade effect on images */
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
 }
